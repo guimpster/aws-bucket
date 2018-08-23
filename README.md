@@ -1,4 +1,2 @@
-# shield
-This project uses `graphql-shield`, `apollo-server`, `graphql-middleware`, `webpack` and `yarn`.
-
-It is a small implementation test of graphql-shield main page example.
+# aws-bucket
+A simple aws bucket test using Apollo-Server + Express + Graphql Middleware using ES6
