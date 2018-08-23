@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "${workspaceRoot}/src/index.js",
+      "outFiles": ["${workspaceRoot}/dist/app.bundle.js"],
+      "sourceMaps": true
+    }
+  ]
+}
