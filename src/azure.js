@@ -16,15 +16,6 @@ class Azure {
     };
   }
 
-//   async detectFaceAzure(url) {
-//     const body = { returnFaceLandmarks: false, returnFaceId: true };
-//     return fetch(`${this.azureAccess}/verify`, { 
-//         method: 'POST',
-//         body:    JSON.stringify(body),
-//         headers: { ...this.accessHeader },
-//     }).then(res => res.json());
-//   }
-
   async detectFaceAzure(url) {
     return fetch(`${this.azureAccess.url}/detect?returnFaceId=true&returnFaceLandmarks=false`, { 
         method: 'POST',
