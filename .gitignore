@@ -74,3 +74,6 @@ typings/
 
 # access file
 aws-access.json
+azure-access.json
+
+dist
